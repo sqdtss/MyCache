@@ -4,7 +4,7 @@
 ##### 2.基于一致性哈希支持分布式并发读写
 ##### 3.使用了singleflight防止缓存击穿
 
-### 目录结构
+### 结构
 ##### consistenthash/consistenthash.go实现了一致性哈希，对外暴露的数据结构及方法包括:
 ```go
 // Map constains all hashed keys
